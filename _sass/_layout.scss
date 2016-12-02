@@ -100,17 +100,19 @@
  */
 .site-footer {
     border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
+    //padding: $spacing-unit 0;
     position: absolute;
     left: 0;
     bottom: 0;
     height: 100px;
     width: 100%;
+    color: black;
 }
 
 .footer-heading {
     font-size: 18px;
     margin-bottom: $spacing-unit / 2;
+
 }
 
 .contact-list,
@@ -130,6 +132,7 @@
     float: left;
     margin-bottom: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
+    color : #333;
 }
 
 .footer-col-1 {
