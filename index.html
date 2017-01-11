@@ -2,22 +2,31 @@
 layout: default
 ---
 
-<div class="home">
+<h2>What is Polite.li?</h2>
+<p>Developers need 15 minutes to start editing code after an interruption. Wish this didn't happen?</p>
 
-  <h1 class="page-heading">Posts</h1>
+<p>Advertise how to politely interrupt you (or not).</p>
+<iframe width="616" height="345" src="https://www.youtube.com/embed/vNzjjdu0_m8" frameborder="0" allowfullscreen></iframe>
+<br/>
+<br/>
+<br/>
+<h2>How it Works</h2>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<p>
+    Using Polite.li is easy. Once you login with GitHub, it automatically loads the developers you follow. Then you can change your status and your preferred means of contact. 
+</p>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<h2>Download and Setup</h2>
+<p> <a href = "https://github.com/akhilcacharya/polite.li/releases/tag/0.1"> Release</a> </p>
+<p> <a href = "https://github.com/akhilcacharya/polite.li"> Source</a> </p>
+<p>Setting up the App</p>
+<ul>
+    <li>Do NPM install on /app and /backend</li>
+    <li>Get the configuration details, add to config.json</li>
+    <li>Run backend with node app.js</li>
+    <li>Run frontend with npm start</li>
+</ul>
+<h2>About</h2>
+<p>
+    Built by Akhil Acharya (acachar2), Kaveen Herath (kmherath) and Evan Li (eli4) for CSC454. 
+</p>
